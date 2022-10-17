@@ -1,0 +1,39 @@
+li{
+    margin-bottom: 7px;
+}
+ul{
+    list-style-type: none;
+}
+#footerMain{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: left;
+    color: grey;
+    
+}
+
+#footerDiv2{
+    display: flex;
+  
+}
+
+
+
+#footerDiv3>Div{
+    display: flex;
+    justify-content: space-between;
+}
+#footerDiv3>Div>h5:not(#copyright,#siteCountry){
+    padding-right: 4px;
+    border-right: 1px solid;
+}
+
+
+
+@media (max-width: 800px){
+    #footerDiv2{
+        flex-direction: column;
+    }
+}

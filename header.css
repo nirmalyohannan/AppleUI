@@ -1,0 +1,42 @@
+
+header{
+    height: 44px;
+    background-color:rgba(0, 0, 0, 0.830) ;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 12%;
+    
+    overflow: hidden;
+    position: fixed;
+    width: 76%;
+    align-items: center;
+    
+/* opacity: 0.8; */
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    
+   
+}
+header>*{
+    opacity: 0.5;
+}
+
+
+.header_names{
+    
+    color: white;
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+header>*:hover{
+    opacity: 1;
+}
+
+#header_searchIcon{
+    height: 100px;
+    padding-top: 50px;
+    
+}

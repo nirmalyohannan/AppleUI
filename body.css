@@ -1,0 +1,25 @@
+body{
+    margin:0px;
+    color: white;
+    font-family: "SF-Pro";
+    text-align: center;
+}
+:root{
+    --whiteBackText: black;
+  
+}
+
+footer{
+    background-color: rgb(245, 245, 247);
+    
+}
+hr{
+   
+    background-color: rgb(207, 207, 207);
+    height: 0.5px;
+}
+
+@font-face {
+    font-family: "SF-Pro";
+    src: url("assets/fonts/FontsFree-Net-SFProText-Regular.ttf");
+}

@@ -1,0 +1,186 @@
+
+#mainDiv_Banner1_Div,
+#mainDiv_Banner2_Div,
+#mainDiv_Banner3_Div{
+    background-position: top;
+    background-repeat: repeat;
+    background-size: cover;
+    /* width: 100%; */
+    
+  object-fit: cover;
+    overflow: hidden;
+}
+#mainDiv_Banner1_Div{
+    padding-top: 70px;
+    background-image: url("assets/images/image1_iphone14Banner_1.jpg");
+    height: 680px;
+}
+
+.banner_LearnMore_Buy{
+    display: flex;
+    gap: 40px;
+}
+#mainDiv_Banner2_Div{
+    background-image: url("assets/images/image2_iphone14Banner_1.jpg");
+    height: 720px;
+    
+}
+#mainDiv_Banner3_Div{
+    background-image: url("assets/images/image3_iwatchBanner_1.jpg");
+    height: 720px;
+    margin-bottom: 10px;
+}
+
+
+.mainDiv_Banner_Div_MainText, 
+.mainDiv_Banner_Div_SubText, 
+
+.banner_LearnMore_Buy{
+   
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+#mainDiv_Banner_Div_MainLogo{
+    display: flex;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#WhiteBanner_Div_MainText,
+#WhiteBanner_Div_SubText{
+    color: var(--whiteBackText);
+    
+}
+
+
+
+
+#mainDiv_ParentSplitBanner1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainDiv_SplitBanner_Div{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    background-size: cover;
+   
+    height: 624px;
+  /* object-fit: cover; */
+    overflow: hidden;  
+    /* background-size: cover; */
+}
+
+#splitBannerDiv1{
+    background-image: url("assets/images/image4_iWatch_splitBanner.jpg");
+
+}
+#splitBannerDiv2{
+    background-image: url("assets/images/image5_Airpod_splitBanner.jpg");
+
+
+}
+#splitBannerDiv3{
+    background-image: url("assets/images/image6_iWatchSE_splitBanner.jpg");
+
+}
+#splitBannerDiv4{
+    background-image: url("assets/images/image7_fitness+_splitBanner.jpg");
+
+}
+
+#splitBannerDiv5{
+    background-image:url("assets/images/image8_Education_splitBanner.jpg") ;
+}
+
+#splitBannerDiv6{
+    background-image:url("assets/images/image9_cards_splitBanner.jpg") ;
+}
+
+#mainDiv_Banner_Div_MainLogo{
+    margin-top: 45px;
+}
+.mainDiv_Banner_Div_MainText{
+    margin-top: 45px;
+    font-size: 50px;
+}
+.mainDiv_Banner_Div_SubText{
+    font-weight: lighter;
+    font-size: 30px;
+    color: grey;
+}
+
+.banner_LearnMore_Buy>h1{
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(40, 146, 246);
+}
+.banner_LearnMore_Buy>h1:hover{
+    text-decoration: underline;
+}
+
+.mainDiv_SplitBanner_Div_MainText,.mainDiv_SplitBanner_Div_SubText{
+margin-left: auto;
+margin-right: auto;
+width: fit-content;
+
+margin-bottom: 0px;
+}
+.mainDiv_SplitBanner_Div_MainText{
+    margin-top: 40px;
+    font-size: 40px;
+}
+.mainDiv_SplitBanner_Div_SubText
+{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 2px;
+}
+#splitBannerDiv5> .banner_LearnMore_Buy>h1{
+    color: white;
+} 
+
+#splitBannerDiv5> .mainDiv_SplitBanner_Div_MainText{
+margin-top: 180px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px){
+    #mainDiv_ParentSplitBanner1{
+        flex-direction: column;
+    }
+    .mainDiv_SplitBanner_Div{
+        width: 96%;
+       
+    }
+
+    #mainDiv_Banner1_Div{
+     
+        height: 400px;
+    }
+    #mainDiv_Banner1_Div>.mainDiv_Banner_Div_MainText{
+        margin-top: -25px;
+    }
+
+    #mainDiv_Banner3_Div{
+        height: 400px;
+    }
+}
